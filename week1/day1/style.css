@@ -3,3 +3,8 @@
   font-weight: 300;
   font-style: normal;
 }
+
+table tr td {
+    width: 200px; 
+    text-align: center;
+}
