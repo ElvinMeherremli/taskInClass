@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainTop_container {
+  background: url("https://assets.nicepagecdn.com/d2cc3eaa/2602318/images/young-woman-boxer-training-gym-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 741px;
+  padding-top: 140px;
+}
+.mainTop_container h1 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  width: 694px;
+  line-height: 60px;
+}
+.mainTop_container p {
+  margin-top: 30px;
+  width: 549px;
+  color: white;
+}
+.mainTop_container button {
+  width: 214px;
+  height: 43px;
+  background-color: #F1900E;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  font-size: 12px;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.discover_container {
+  background-color: #E5E5E5;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.discover_container h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 60px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.discover_container .unit {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+.discover_container .unit .card {
+  height: 525px;
+  width: 363px;
+  background-color: white;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.discover_container .unit .card .descr {
+  padding: 0 30px;
+}
+.discover_container .unit .card .descr h3 {
+  margin-top: 25px;
+  font-family: "Oswald", sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+}
+.discover_container .unit .card .descr p {
+  margin-top: 25px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.discover_container .unit .card .descr a {
+  color: black;
+  font-size: 14px;
+  font-weight: 900;
+  border-bottom: 2px solid #F1900E;
+}
+.discover_container .unit .card img {
+  width: 100%;
+  height: 278px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.membership_container {
+  background-color: #E5E5E5;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.membership_container h2 {
+  font-size: 60px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-weight: 900;
+}
+.membership_container p {
+  text-align: center;
+  width: 504px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.membership_container .unit {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  margin-top: 40px;
+}
+.membership_container .unit .box {
+  padding: 50px 30px 30px;
+  width: 353px;
+  height: 467px;
+  background-color: white;
+}
+.membership_container .unit .box h3 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.membership_container .unit .box p {
+  margin-top: 51px;
+  width: 295px;
+  line-height: 40px;
+  font-size: 18px;
+}
+.membership_container .unit .box button {
+  width: 249px;
+  display: block;
+  margin: 0 auto;
+  height: 55px;
+  background-color: #F1900E;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  font-size: 12px;
+  margin-top: 51px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.membership_container .unit .box button:hover {
+  background-color: #d07a09;
+  cursor: pointer;
+}
+
+.feedback_container {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  background-color: white;
+  width: 100%;
+}
+.feedback_container h2 {
+  font-size: 60px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.feedback_container .unit {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E5E5;
+  width: 100%;
+  height: 310px;
+}
+.feedback_container .unit input {
+  height: 47px;
+  border: none;
+  padding-left: 20px;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.feedback_container .unit .box {
+  padding: 30px;
+  max-width: 570px;
+}
+.feedback_container .unit .box form button {
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  height: 45px;
+  background-color: #F1900E;
+  border-radius: 20px;
+  font-weight: 800;
+  color: white;
+  border: none;
+  margin-top: 20px;
+}
+.feedback_container .unit .box form button:hover {
+  background-color: #d07a09;
+  cursor: pointer;
+}
+.feedback_container .unit .box2 {
+  width: 50%;
+}
+.feedback_container .unit .box2 label {
+  font-size: 16px;
+}
+.feedback_container .unit .box2 .input_name input {
+  width: 100%;
+  height: 47px;
+}
+.feedback_container .unit .box2 .phone_email_inputs {
+  display: flex;
+  gap: 13px;
+  margin-top: 13px;
+}
+.feedback_container .unit .box2 .phone_email_inputs input {
+  width: 247px;
+}
+.feedback_container .unit .box1 {
+  width: 50%;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+.feedback_container .unit .box1 p {
+  color: #808080;
+}
+.feedback_container .unit .box1 .socials {
+  display: flex;
+  gap: 20px;
+}
+
+footer {
+  background-color: #333333;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}/*# sourceMappingURL=main.css.map */
